@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.12.154.2:3306
--- Generation Time: Mar 11, 2015 at 03:42 PM
+-- Generation Time: Mar 11, 2015 at 03:46 PM
 -- Server version: 5.5.41
 -- PHP Version: 5.3.3
 
@@ -51,15 +51,6 @@ CREATE TABLE IF NOT EXISTS `Questions` (
   `num_answers` int(11) NOT NULL,
   PRIMARY KEY (`id_question`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
-
---
--- Dumping data for table `Questions`
---
-
-INSERT INTO `Questions` (`id_question`, `question_text`, `question_img`, `url`, `url_text`, `id_survay`, `num_answers`) VALUES
-(8, 'What type is this table?', 'http://alistapart.com/d/zebrastripingdoesithelp/data-table.png', 'http://alistapart.com/article/zebrastripingdoesithelp', 'The table is part of the following document', 14, 1),
-(9, 'What type is this table?', 'http://alistapart.com/d/zebrastripingdoesithelp/data-table.png', 'http://alistapart.com/article/zebrastripingdoesithelp', 'The table is part of the following document', 14, 1),
-(10, 'What type is this table?', 'http://alistapart.com/d/zebrastripingdoesithelp/data-table.png', 'http://alistapart.com/article/zebrastripingdoesithelp', 'The table is part of the following document', 14, 1);
 
 -- --------------------------------------------------------
 
