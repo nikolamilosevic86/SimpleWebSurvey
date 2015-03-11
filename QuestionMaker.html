@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Question maker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Add a question</h1>
+        <form action="question_creator.php" method="POST">
+                <table border="0">
+                        <tr><td>Question text:</td> <td><input name="question_text" id="que_text" placeholder="Enter Question Text"/></td></tr>
+                        <tr><td>Question image:</td> <td> <input name="question_image" id="que_img" placeholder="Enter Path to Question Image"/></td></tr>
+                        <tr><td>Help URL text:</td> <td> <input name="help_url_text" id="help_url_text" type="text" placeholder="Enter Text for URL"/></td></tr>
+                        <tr><td>Help URL:</td> <td> <input name="help_url" id="help_url" type="text" placeholder="Help URL"/></td></tr>
+                        <tr><td>Number of potential answers:</td> <td> <input name="num_answers" id="num_answer" type="number" placeholder="Number of potential answers"/></td></tr>
+                        <tr><td></td> <td> <input name="done_question" id="submit" value="Next" type="submit"/></td></tr>
+                        
+                </table>
+            </form>
+    </body>
+</html>

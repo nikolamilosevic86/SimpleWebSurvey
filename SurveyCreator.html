@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Survey creator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Survey Creator</h1>
+        <div>Here you can create a survey</div>
+        <div>
+            <form action="survey_creator.php" method="POST">
+                <table border="0">
+                        <tr><td>Survey name:</td> <td><input name="survey_name" id="sur_name" placeholder="Enter Survey Name"/></td></tr>
+                        <tr><td>Survey description:</td> <td> <input name="survey_desc" id="sur_desc" placeholder="Enter Survey Description"/></td></tr>
+                        <tr><td>Number of questions per user:</td> <td> <input name="num_questions" id="num_ques" type="number" placeholder="Enter Number"/></td></tr>
+                        <tr><td>Random questions:</td> <td> <input name="random_question" id="random_q" type="checkbox"/></td></tr>
+                        <tr><td>Maximum answers per question:</td> <td> <input name="sur_max_answers" id="sur_max_ans" type="number" placeholder="Enter number of maximum answers"/></td></tr>
+                        <tr><td></td> <td> <input name="submit_surway" id="submit" value="Next" type="submit"/></td></tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
